@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(100deg,#ffcc99   ,#ff99cc);
+    font-family: sans-serif;
+    outline: none;
+}
+body {
+    text-align: center;
+    margin-top: 10%;
+}
+#guessnumber{
+    margin-top: 5%;
+    height: 25px;
+    width: 250px;
+}
+#heading{
+    font-size: 50px;
+}
+button{
+    background-color: white;
+    cursor:pointer;
+    color: black;
+    height: 25px;
+    width: 100px;
+    border-radius:10px;
+}
+button:hover {
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#result{
+    margin-top: 20px;
+    margin-right: 5px;
+}
